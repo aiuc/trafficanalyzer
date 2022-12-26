@@ -1,5 +1,3 @@
-Visualisateur de trame par Elliethy Ossama 28712429 : UE LU3IN033 groupe 5
-
 ## Introduction
 Le programme permet de visualiser les flux entre deux machines via leurs traces, et donne les détails des flux dans un fichier choisi en sortie.
 
