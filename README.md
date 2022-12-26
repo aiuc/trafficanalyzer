@@ -3,8 +3,11 @@ Le programme permet de visualiser les flux entre deux machines via leurs traces,
 
 ## Fichiers principaux
 src : où se trouve le code
+
 sequences : où se trouveront les fichiers de sortie
+
 data : données pour tester et utiliser le programme
+
 bin : fichiers compilés
 
 ### Src : fichiers principaux
