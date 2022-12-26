@@ -1,0 +1,16 @@
+## Comment fonctionne le programme
+- Le programme a besoin de 2 arguments pour fonctionner : un argument avec le fichier d'entrée, et un argument pour celui de sortie.
+- Dans le cas de plus d'arguments ou de moins d'arguments le programme va envoyer un message d'erreur.
+- Le makefile vous indique comment mettre ces arguments.
+- Après le lancement, le programme vous demande 2 filtres indépendants, mais pouvant être appliqués en même temps. Le premier filtre est celui du protocole (filtretype), le deuxième est le filtre d'adresse IP.
+- Le programme peut être lancé sans filtre, en appuyant entrée.
+
+format d'entrée :
+java -cp bin visualisateur.Visualisateur <filenameIN> <filenameOUT>
+
+exemple d'entrée:
+java -cp bin visualisateur.Visualisateur data/TCPs.txt TCP
+
+format de filtretype: "HTTP" ou "TCP"
+format de filtreip: "10.33.182.178"
+
